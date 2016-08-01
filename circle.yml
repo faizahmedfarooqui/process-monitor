@@ -1,0 +1,19 @@
+machine:
+    timezone:
+        Asia/Kolkata
+    php:
+        version: 5.6.16
+
+# checkout:
+#     post:
+#         - git submodule sync
+#         - git submodule update --init
+
+# dependencies:
+#     pre:
+#         - composer install
+
+test:
+    override:
+        - php /Users/faizahmedfarooqui/Sites/projects/process-monitor/index.php
+
