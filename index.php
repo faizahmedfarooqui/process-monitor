@@ -9,5 +9,5 @@ $bodyArray = $classObject->index();
 if ( !empty($bodyArray) ) {
 
 	$mailClassObject = new AdminMail;
-	// $mailClassObject->index($bodyArray);
+	$mailClassObject->index($bodyArray);
 }

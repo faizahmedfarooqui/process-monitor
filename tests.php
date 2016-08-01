@@ -1,7 +1,7 @@
 <?php
 
 /**
-*	Log(s) CircleCI Metadata test results
+*	CircleCI Metadata Test class
 */
 class tests
 {
