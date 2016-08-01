@@ -16,4 +16,6 @@ machine:
 test:
     override:
         - php ./index.php
+        - mkdir -p $CIRLCE_TEST_REPORTS/phpunit
+        - phpunit --log-junit $CIRLCE_TEST_REPORTS/phpunit/junit.xml tests
 
