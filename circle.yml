@@ -15,5 +15,5 @@ machine:
 
 test:
     override:
-        - php /Users/faizahmedfarooqui/Sites/projects/process-monitor/index.php
+        - php ./index.php
 
