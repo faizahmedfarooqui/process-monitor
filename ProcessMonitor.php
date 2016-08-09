@@ -55,7 +55,6 @@ class ProcessMonitor
 					$processStatusArray[] = "Process count not matching :: Process \"$process[name]\" :: Count ($runCount/$process[count]) ";
 				elseif ( $runCount == $process['count'] )
 					$a = 1; // ✓ Do nothing
-					// $processStatusArray[] = "Process successfully working :: Process \"$process[name]\" :: Count ($runCount/$process[count]) ";
 				else
 					$processStatusArray[] = "Process overload :: Process \"$process[name]\" :: Count ($runCount/$process[count]) ";
 			}

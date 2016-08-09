@@ -37,16 +37,15 @@ class AdminMail
 			$mail->SMTPSecure = 'tls';
 			$mail->Port = 587;
 
-			$mail->setFrom('sanket10@sahusoft.com', 'CloudRank.me');
-			$mail->addAddress('faiz@sahusoft.com', 'Faiz Ahmed');
-			$mail->addAddress('khalid@sahusoft.com', 'Khalid Imam');
-			$mail->addAddress('pratik@sahusoft.com', 'Kumar Pratik');
+			$mail->setFrom('senderEmail@host.com', 'Project Name');
+			$mail->addAddress('receiverEmail@host.com', 'Faiz Ahmed');
+			$mail->addAddress('amdinEmail@host.com', 'Khalid Imam');
 
-			$mail->addCC('b9q4f6n6b3k3b2a2@geekyants-sahusoft.slack.com', 'Slack Notification');
+			$mail->addCC('webhooks@slack.com', 'Slack Notification');
 
 			$mail->isHTML(true);
 
-			$mail->Subject = 'Process Manager for CloudRank.me';
+			$mail->Subject = 'Process Manager for Project Name';
 			$mail->Body    = $body;
 			$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
