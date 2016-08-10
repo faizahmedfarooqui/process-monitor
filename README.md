@@ -12,10 +12,8 @@ Queues Status Monitoring : Less/OverLoad/None
 
 ## How to use:
 
-```php
-    
-    // Execute index.php
-    
+```
+    // Execute process_monitor/index.php
     
     /*
     *   Edit ProcessConfig.php by providing:
@@ -31,6 +29,4 @@ Queues Status Monitoring : Less/OverLoad/None
     *   set to mail address in addAddress('mailAddress@host.com', 'Give Any Name')
     *   add CC (optional)
     */
-    
-    
 ```
