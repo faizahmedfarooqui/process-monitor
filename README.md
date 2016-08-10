@@ -23,7 +23,7 @@ Queues Status Monitoring : Less/OverLoad/None
     */
     
     /*
-    *   Edit AdminMail.php by providinf
+    *   Edit AdminMail.php:
     *   provide mail username, password
     *   set from mail address
     *   set to mail address in addAddress('mailAddress@host.com', 'Give Any Name')
