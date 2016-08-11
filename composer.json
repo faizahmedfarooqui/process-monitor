@@ -1,9 +1,16 @@
 {
     "name": "faizahmedfarooqui/process-monitor",
+    "description": "Laravel Queue Jobs monitoring with count & PHP Mailer",
+    "keywords": ["php", "laravel", "queues", "jobs", "monitor"],
+    "homepage": "https://github.com/faizahmedfarooqui/process-monitor",
     "authors": [
         {
             "name": "faizahmedfarooqui",
             "email": "faiz@sahusoft.com"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "^5.1"
+    }
 }
