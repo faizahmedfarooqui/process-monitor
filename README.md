@@ -13,7 +13,7 @@ Queues Status Monitoring : Less/OverLoad/None
 ## How to use:
 
 ```
-    // Just clone using command `git clone git@github.com:faizahmedfarooqui/process-monitor.git`
+    // Just clone using command `git clone https://github.com/faizahmedfarooqui/process-monitor.git`
     // then execute process_monitor/index.php file using cron or anything it will work
     
     /*
