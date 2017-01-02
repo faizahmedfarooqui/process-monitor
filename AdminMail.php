@@ -32,20 +32,19 @@ class AdminMail
 			$mail->isSMTP();
 			$mail->Host = 'smtp.gmail.com';
 			$mail->SMTPAuth = true;
-			$mail->Username = 'emailAddress@host.com';
-			$mail->Password = 'password';
+			$mail->Username = 'sanket10@sahusoft.com';
+			$mail->Password = 'goldtree9';
 			$mail->SMTPSecure = 'tls';
 			$mail->Port = 587;
 
-			$mail->setFrom('senderEmail@host.com', 'Project Name');
-			$mail->addAddress('receiverEmail@host.com', 'Faiz Ahmed');
-			$mail->addAddress('amdinEmail@host.com', 'Khalid Imam');
+			$mail->setFrom('abc@sahusoft.com', 'Sahusoft');
+			$mail->addAddress('faiz@sahusoft.com', 'Faiz Ahmed');
 
-			$mail->addCC('webhooks@slack.com', 'Slack Notification');
+			$mail->addCC('anything@sahusoft.slack.com', 'Slack Notification');
 
 			$mail->isHTML(true);
 
-			$mail->Subject = 'Process Manager for Project Name';
+			$mail->Subject = 'Process Manager for Sahusoft';
 			$mail->Body    = $body;
 			$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
