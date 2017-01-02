@@ -32,8 +32,8 @@ class AdminMail
 			$mail->isSMTP();
 			$mail->Host = 'smtp.gmail.com';
 			$mail->SMTPAuth = true;
-			$mail->Username = 'sanket10@sahusoft.com';
-			$mail->Password = 'goldtree9';
+			$mail->Username = 'faiz@sahusoft.com';
+			$mail->Password = 'thisIsMyPassword';
 			$mail->SMTPSecure = 'tls';
 			$mail->Port = 587;
 
